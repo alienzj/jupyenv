@@ -6,11 +6,11 @@ authors = []
 
 [tool.poetry.dependencies]
 python = "^3.11"
-jupyterlab = "4.2.5"
+jupyterlab = "*"
 
 [tool.poetry.dev-dependencies]
 testbook = "*"
 
 [build-system]
-requires = ["poetry-core"]
+requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"

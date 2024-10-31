@@ -6,10 +6,10 @@ authors = []
 
 [tool.poetry.dependencies]
 python = "^3.11"
-ipykernel = "6.29.4"
+ipykernel = "*"
 
 [tool.poetry.dev-dependencies]
 
 [build-system]
-requires = ["poetry-core"]
+requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
